@@ -1,74 +1,98 @@
-body{
+body {
   background-color: hsl(0, 0%, 98%);
   font-family: 'Poppins', sans-serif;
 }
-h2{
+
+h2 {
   font-size: 41px;
   margin-top: 19px;
 }
-h3{
+
+h3 {
   font-size: 38px;
 }
-h2 , h4{
+
+h2, h4 {
   font-weight: 600;
 }
-p{
+
+p {
   font-size: 20px;
   margin-top: 17px;
 }
-p , h3{
+
+p, h3 {
   font-weight: 200;
 }
-img{
-float: right;
+
+img {
+  float: right;
 }
+
 /********************Title**********************/
-.title-text{
+.title-text {
   text-align: center;
   line-height: 1.5;
   padding: 50px;
 }
-.features-container{
+
+.features-container {
   padding: 18px 87px;
 }
-.features-1 , .features-3{
+
+.features-1, .features-3 {
   position: relative;
   top: 88px;
 }
-.features-1{
+
+.features-1 {
   position: relative;
   right: 24px;
 }
-.features-3{
+
+.features-3 {
   position: relative;
   left: 24px;
 }
-.features-1 ,.features-2 ,.features-3 ,.features-4{
+
+.features-1, .features-2, .features-3, .features-4 {
   padding: 20px;
   border-radius: 20px;
   background-color: white;
-  -webkit-box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.29);
-  -moz-box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.29);
-   box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.29);
+  -webkit-box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.29);
+  box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.29);
 }
-.features-1{
-  border-top:hsl(180, 62%, 55%) solid;
+
+.features-1 {
+  border-top: hsl(180, 62%, 55%) solid;
 }
-.features-2{
-  border-top:hsl(0, 78%, 62%) solid;
+
+.features-2 {
+  border-top: hsl(0, 78%, 62%) solid;
 }
-.features-3{
-  border-top:hsl(34, 97%, 64%) solid;
+
+.features-3 {
+  border-top: hsl(34, 97%, 64%) solid;
 }
-.features-4{
-  border-top:hsl(212, 86%, 64%) solid;
+
+.features-4 {
+  border-top: hsl(212, 86%, 64%) solid;
 }
+
 @media (max-width:1024px) {
-  .features-1 , .features-3{
+  .features-1, .features-3 {
     position: relative;
     top: 0;
-    right:0;
-    left:0;
-    margin: 70px;
+    right: 0;
+    left: 0;
+  }
+
+  .features-1, .features-2 {
+    margin-bottom: 20px;
+  }
+
+  .features-4 {
+    margin: 0;
   }
 }
