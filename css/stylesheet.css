@@ -86,6 +86,7 @@ img {
     top: 0;
     right: 0;
     left: 0;
+    margin: 0;
   }
 
   .features-1, .features-2 {
@@ -94,5 +95,8 @@ img {
 
   .features-4 {
     margin: 0;
+  }
+  .features-container {
+
   }
 }
